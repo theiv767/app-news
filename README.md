@@ -1,3 +1,3 @@
 # app-news
 
-Uma aplicação teste para android
+Uma aplicação simples para android com 5 
