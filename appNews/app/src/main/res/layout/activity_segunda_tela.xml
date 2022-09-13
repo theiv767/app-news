@@ -54,15 +54,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="288dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="28dp"
         android:text="Iury e Davi"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnAnterior1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
-        app:layout_constraintVertical_bias="0.111" />
+        app:layout_constraintVertical_bias="0.901" />
 
     <Button
         android:id="@+id/btnProximo2"
@@ -77,11 +73,8 @@
         android:id="@+id/btnAnterior1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="274dp"
         android:layout_marginEnd="24dp"
-        android:layout_marginBottom="22dp"
         android:text="anterior"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnProximo2"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView8"
+        app:layout_constraintEnd_toStartOf="@+id/btnProximo2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

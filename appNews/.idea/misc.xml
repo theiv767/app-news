@@ -4,8 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Iury Azevedo/AndroidStudioProjects/appNews/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Iury Azevedo/AndroidStudioProjects/appNews/app/src/main/res/layout/activity_quarta_tela.xml" value="0.264" />
+        <entry key="..\:/Users/Iury Azevedo/AndroidStudioProjects/appNews/app/src/main/res/layout/activity_quinta_tela.xml" value="0.20652173913043478" />
         <entry key="..\:/Users/Iury Azevedo/AndroidStudioProjects/appNews/app/src/main/res/layout/activity_segunda_tela.xml" value="0.2" />
-        <entry key="..\:/Users/Iury Azevedo/AndroidStudioProjects/appNews/app/src/main/res/layout/activity_terceira_tela.xml" value="0.20652173913043478" />
+        <entry key="..\:/Users/Iury Azevedo/AndroidStudioProjects/appNews/app/src/main/res/layout/activity_terceira_tela.xml" value="0.264" />
+        <entry key="..\:/Users/Iury Azevedo/app-news/appNews/app/src/main/res/layout/activity_main.xml" value="0.20652173913043478" />
+        <entry key="..\:/Users/Iury Azevedo/app-news/appNews/app/src/main/res/layout/activity_quarta_tela.xml" value="0.20652173913043478" />
       </map>
     </option>
   </component>
