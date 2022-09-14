@@ -1,80 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QuartaTela">
+    android:fillViewport="true">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="0dp"
-        android:layout_height="200dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/utorrent" />
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".QuartaTela">
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="373dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="Distribuidora fazia upload de filmes em redes torrent para depois processar quem os baixava"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/utorrent" />
 
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="24dp"
-        android:text="08/09/2022"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="373dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Distribuidora fazia upload de filmes em redes torrent para depois processar quem os baixava"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="361dp"
-        android:layout_height="122dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:text="a empresa taiwanesa rastreava os endereços IP e obtinha as identidades através de provedores de internet – desde agosto de 2021, a distribuidora já havia entrado com 937 ações judiciais e o objetivo era lucrar com acordos extrajudiciais. Além do dono da empresa, outras quatro pessoas foram presas acusadas de extorsão por direitos autorais. As informações são do site TorrentFreak."
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:text="08/09/2022"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
-    <Button
-        android:id="@+id/btnAnterior5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
-        android:text="anterior"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView16"
-        app:layout_constraintEnd_toStartOf="@+id/btnProximo5" />
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="360dp"
+            android:layout_height="145dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="a empresa taiwanesa rastreava os endereços IP e obtinha as identidades através de provedores de internet. Desde agosto de 2021, a distribuidora já havia entrado com 937 ações judiciais e o objetivo era lucrar com acordos extrajudiciais. Além do dono da empresa, outras quatro pessoas foram presas acusadas de extorsão por direitos autorais. As informações são do site TorrentFreak."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
-    <Button
-        android:id="@+id/btnProximo5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="12dp"
-        android:text="próximo"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView16"
-        app:layout_constraintEnd_toEndOf="parent" />
+        <Button
+            android:id="@+id/btnAnterior5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:backgroundTint="@color/selectionColor"
+            android:text="anterior"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView16"
+            app:layout_constraintEnd_toStartOf="@+id/btnProximo5" />
 
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:text="Iury e Davi"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15"
-        app:layout_constraintVertical_bias="0.892" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/btnProximo5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:backgroundTint="@color/selectionColor"
+            android:text="próximo"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView16"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:text="Iury e Davi"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15"
+            app:layout_constraintVertical_bias="0.892" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

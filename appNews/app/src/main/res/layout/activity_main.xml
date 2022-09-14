@@ -24,7 +24,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.001"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/vozao" />
 
     <TextView
@@ -51,7 +51,7 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="0dp"
+        android:layout_width="361dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
@@ -79,7 +79,8 @@
         android:layout_marginEnd="12dp"
         android:text="Próximo"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView4"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/selectionColor"/>
 
     <Button
         android:id="@+id/btnanterior"
@@ -88,6 +89,8 @@
         android:layout_marginEnd="24dp"
         android:text="Anterior"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView4"
-        app:layout_constraintEnd_toStartOf="@+id/btnProximo1" />
+        app:layout_constraintEnd_toStartOf="@+id/btnProximo1"
+        android:backgroundTint="@color/selectionColor"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
