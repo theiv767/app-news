@@ -50,16 +50,16 @@
         app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
     <Button
-        android:id="@+id/btnAnterior3"
+        android:id="@+id/btnAnterior5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
         android:text="anterior"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView16"
-        app:layout_constraintEnd_toStartOf="@+id/btnProximo4" />
+        app:layout_constraintEnd_toStartOf="@+id/btnProximo5" />
 
     <Button
-        android:id="@+id/btnProximo4"
+        android:id="@+id/btnProximo5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="12dp"
