@@ -7,9 +7,7 @@
     android:layout_height="match_parent"
     android:fillViewport="true">
 
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".QuartaTela">
@@ -26,12 +24,14 @@
 
         <TextView
             android:id="@+id/textView13"
-            android:layout_width="373dp"
-            android:layout_height="40dp"
+            android:layout_width="354dp"
+            android:layout_height="33dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
             android:text="Distribuidora fazia upload de filmes em redes torrent para depois processar quem os baixava"
             android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
@@ -52,7 +52,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
-            android:text="a empresa taiwanesa rastreava os endereços IP e obtinha as identidades através de provedores de internet. Desde agosto de 2021, a distribuidora já havia entrado com 937 ações judiciais e o objetivo era lucrar com acordos extrajudiciais. Além do dono da empresa, outras quatro pessoas foram presas acusadas de extorsão por direitos autorais. As informações são do site TorrentFreak."
+            android:text="A empresa taiwanesa rastreava os endereços IP e obtinha as identidades através de provedores de internet. Desde agosto de 2021, a distribuidora já havia entrado com 937 ações judiciais e o objetivo era lucrar com acordos extrajudiciais. Além do dono da empresa, outras quatro pessoas foram presas acusadas de extorsão por direitos autorais. As informações são do site TorrentFreak."
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView14" />
